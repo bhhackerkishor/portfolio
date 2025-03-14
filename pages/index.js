@@ -13,7 +13,6 @@ import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
-import "../public/images/person.png";
 
 export default function Home() {
   // Ref
@@ -53,6 +52,8 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
+      <link rel="icon" type="image/svg" href="favicon.svg"/>
+
         <title>{data.name}</title>
       </Head>
 
@@ -94,7 +95,7 @@ export default function Home() {
 
           <Socials className="mt-2 laptop:mt-5" />
         </div>
-        <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
+        <div className="mt-10 laptop:mt-3 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
@@ -130,21 +131,11 @@ export default function Home() {
             </Link>
           </div>
         )}
-        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0 flex flex-col laptop:flex-row items-center">
-          {/* Left Image */}
-          <img 
-            src={data.aboutimg}
-            alt="About Image" 
-            className="w-full laptop:w-1/3 rounded-lg shadow-lg h-100 laptop:h-100 "
-          />
-
-          {/* Right Content */}
-          <div className="laptop:ml-10">
-            <h1 className="tablet:m-10 text-2xl font-bold">About.</h1>
-            <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-              {data.aboutpara}
-            </p>
-          </div>
+        <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+          <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+            {data.aboutpara}
+          </p>
         </div>
 
         <Footer />
