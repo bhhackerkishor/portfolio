@@ -17,6 +17,7 @@ import data from "../data/portfolio.json";
 export default function Home() {
   // Ref
   const workRef = useRef();
+  const contactRef = useRef();
   const aboutRef = useRef();
   const textOne = useRef();
   const textTwo = useRef();
@@ -31,7 +32,13 @@ export default function Home() {
       behavior: "smooth",
     });
   };
-
+  const handleContactScroll = () => {
+    window.scrollTo({
+      top: contactRef.current.offsetTop,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
   const handleAboutScroll = () => {
     window.scrollTo({
       top: aboutRef.current.offsetTop,
@@ -64,6 +71,7 @@ export default function Home() {
         <Header
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
+          handleContactScroll={handleContactScroll}
         />
         <div className="laptop:mt-20 mt-10">
           <div className="mt-5">
@@ -138,7 +146,7 @@ export default function Home() {
           </p>
         </div>
 
-        <Footer />
+        <Footer contactRef={contactRef}/>
       </div>
     </div>
   );
