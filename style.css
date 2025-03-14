@@ -278,3 +278,125 @@ body {
       display: block; /* Show toggle button */
   }
 }
+/* About Section */
+.about_section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about_section h2 {
+  font-size: 36px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.about_section p {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Work Section */
+.work_section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.work_section h2 {
+  font-size: 36px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.work_section a {
+  color: rgb(31, 202, 31);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.work_section a:hover {
+  text-decoration: underline;
+}
+
+/* Quote Section */
+.experience_section blockquote {
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+
+/* Call-To-Action (CTA) Section */
+.cta_section {
+  background-color: #2a2a2a;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta_section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta_section p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta_section .btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(31, 202, 31);
+  color: white;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.cta_section .btn:hover {
+  background-color: rgb(20, 150, 20);
+}
+
+/* Contact Section */
+.contact_section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.contact_section h2 {
+  font-size: 36px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
+}
+
+.contact_section p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-size: 40px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: rgb(31, 202, 31);
+}
+
