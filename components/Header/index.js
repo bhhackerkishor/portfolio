@@ -107,7 +107,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll,handleContactScroll, isBlo
                   )}
 
                   <Button
-                    onClick={handleContactScroll}
+                    onClick={() => window.open("mailto:kishornaveen2193@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -174,7 +174,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll,handleContactScroll, isBlo
               </Button>
             )}
 
-            <Button onClick={handleContactScroll}>
+            <Button onClick={() => window.open("mailto:kishornaveen2193@gmail.com")}>
               Contact
             </Button>
 
