@@ -1,0 +1,72 @@
+{
+  "name": "Kishore Kumar",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Kishor - a passionate",
+  "headerTaglineThree": "developer and entrepreneur",
+  "headerTaglineFour": "building innovative solutions.",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    { "id": "1", "title": "Github", "link": "https://github.com/bhhackerkishor" },
+    { "id": "2", "title": "LinkedIn", "link": "https://www.linkedin.com/in/kishorkumardev" },
+    { "id": "3", "title": "Twitter", "link": "https://twitter.com/kishor0909" },
+    { "id": "4", "title": "Email", "link": "mailto:kishornaveen2193@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "RegalMints",
+      "description": "E-commerce platform",
+      "imageSrc": "https://example.com/regalmints.jpg",
+      "url": "https://regalmints.vercel.app"
+    },
+    {
+      "id": "2",
+      "title": "Productivity App",
+      "description": "Task & Notes Manager",
+      "imageSrc": "https://example.com/productivity.jpg",
+      "url": "https://example.com/productivity"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Web Development",
+      "description": "Building fast and responsive web applications."
+    },
+    {
+      "id": "2",
+      "title": "E-commerce Solutions",
+      "description": "Complete solutions for online stores, including payments and logistics."
+    },
+    {
+      "id": "3",
+      "title": "AI Chatbot Development",
+      "description": "Creating AI-powered chatbots for customer support and automation."
+    }
+  ],
+  "aboutpara": "I am a MERN stack developer and entrepreneur passionate about building scalable web solutions and innovative e-commerce platforms.",
+  "resume": {
+    "tagline": "👋  I'm a full-stack developer and entrepreneur.",
+    "description": "I specialize in MERN stack development and e-commerce solutions, focusing on user experience and business scalability.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2024 - Present",
+        "type": "Entrepreneur",
+        "position": "Founder of RegalMints",
+        "bullets": "Built an e-commerce store, Integrated Razorpay, Developed AI chatbot for customer support"
+      }
+    ],
+    "education": {
+      "universityName": "Anna University ",
+      "universityDate": "2022 - Present",
+      "universityPara": "Pursuing B.E. in Electrical and Electronics Engineering, with a strong interest in software development."
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python"],
+    "frameworks": ["React", "Node.js", "Express", "MongoDB"],
+    "others": ["Bootstrap", "Material UI", "Git"]
+  }
+}
