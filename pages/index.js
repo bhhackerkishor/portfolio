@@ -58,11 +58,22 @@ export default function Home() {
   return (
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
-      <Head>
-      <link rel="icon" type="image/svg" href="favicon.svg"/>
+     
+      
+<Head>
+  <title>{data.name} - Web Developer & Designer</title>
+  <link rel="icon" type="image/svg" href="favicon.svg"/>
+  <meta name="description" content="Explore my portfolio showcasing web development and design projects. I specialize in creating modern, responsive websites." />
+  <meta name="keywords" content="web developer, portfolio, frontend developer, React, MERN stack, UI/UX design" />
+  <meta name="author" content={data.name} />
+  <meta property="og:title" content={data.name} />
+  <meta property="og:description" content="A portfolio of web development projects, services, and experience." />
+  <meta property="og:image" content="https://camo.githubusercontent.com/2ce978d7f84bdf243897075060b1bdc79798ddadcb7c63f0ea09fec406a9bcd1/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64726d6a65766668382f696d6167652f75706c6f61642f76313734313938353630362f53484f57434153455f6e777665626f2e706e67" />
+  <meta property="og:url" content="https://kishordev.vercel.app/" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://kishordev.vercel.app/" />
+</Head>
 
-        <title>{data.name}</title>
-      </Head>
 
       <div className="gradient-circle"></div>
       <div className="gradient-circle-bottom"></div>
